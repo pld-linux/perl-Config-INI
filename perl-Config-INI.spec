@@ -6,7 +6,6 @@
 %define		pnam	INI
 %include	/usr/lib/rpm/macros.perl
 Summary:	Config::INI - simple .ini-file format
-#Summary(pl.UTF-8):	
 Name:		perl-Config-INI
 Version:	0.025
 Release:	1
@@ -15,8 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0402eb29869547dbcf03ed6f35fef3c0
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/Config-INI/
+URL:		http://search.cpan.org/dist/Config-INI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -27,10 +25,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-
-
-# %description -l pl.UTF-8
-# TODO
+Config::INI - simple .ini-file format.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
