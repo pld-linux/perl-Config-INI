@@ -4,7 +4,6 @@
 #
 %define		pdir	Config
 %define		pnam	INI
-%include	/usr/lib/rpm/macros.perl
 Summary:	Config::INI - simple .ini-file format
 Name:		perl-Config-INI
 Version:	0.025
