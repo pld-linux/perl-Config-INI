@@ -6,13 +6,13 @@
 %define		pnam	INI
 Summary:	Config::INI - simple .ini-file format
 Name:		perl-Config-INI
-Version:	0.025
+Version:	0.027
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0402eb29869547dbcf03ed6f35fef3c0
+# Source0-md5:	61f6b3e890e1818545dd1112ba798273
 URL:		http://search.cpan.org/dist/Config-INI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
