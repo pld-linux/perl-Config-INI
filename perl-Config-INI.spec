@@ -7,13 +7,13 @@
 Summary:	Config::INI - simple .ini-file format
 Summary(pl.UTF-8):	Config::INI - prosty format plików .ini
 Name:		perl-Config-INI
-Version:	0.027
-Release:	2
+Version:	0.029
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	61f6b3e890e1818545dd1112ba798273
+Source0:	https://www.cpan.org/modules/by-module/Config/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	d80851f435976e83602271ece5b2f2dd
 URL:		https://metacpan.org/dist/Config-INI
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
